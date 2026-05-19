@@ -44,7 +44,7 @@ An intelligent complaint management platform that leverages AI to automatically 
 | Frontend | React 18, Vite, Tailwind CSS v3, Framer Motion, Lucide Icons |
 | Backend | Node.js, Express.js, Mongoose |
 | Database | MongoDB Atlas |
-| AI | OpenRouter API (GPT-4o-mini) + Local Fallback |
+| AI | OpenRouter API (GPT-4o-mini) |
 | Auth | JWT + bcrypt |
 
 ---
@@ -58,7 +58,7 @@ An intelligent complaint management platform that leverages AI to automatically 
 ### 1. Clone & Install
 
 ```bash
-git clone 
+git clone https://github.com/Jiteshhh001/SmartComplaintSystem
 cd SmartComplaint-AI
 
 # Backend
