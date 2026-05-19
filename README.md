@@ -158,25 +158,6 @@ SmartComplaint/
 └── README.md
 ```
 
----
-
-## 🌐 Deployment (Render)
-
-### Backend
-1. Create **Web Service** on Render
-2. Connect GitHub repo → Root Directory: `backend`
-3. Build Command: `npm install`
-4. Start Command: `node server.js`
-5. Add environment variables (MONGODB_URI, JWT_SECRET, OPENROUTER_API_KEY)
-
-### Frontend
-1. Create **Static Site** on Render
-2. Connect GitHub repo → Root Directory: `frontend`
-3. Build Command: `npm install && npm run build`
-4. Publish Directory: `dist`
-5. Add env: `VITE_API_URL=https://your-backend.onrender.com/api`
-
----
 
 ## 👤 Author
 
